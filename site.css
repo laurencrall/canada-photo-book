@@ -19,8 +19,14 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: Aria
 .shot-main section { background: var(--card); border: 1px solid var(--line); padding: 1.25rem; margin-bottom: 1rem; }
 .shot-main h2 { font-family: Georgia, 'Times New Roman', serif; margin-top: 0; }
 .source-pending { border-left: 4px solid #9b6c28; padding-left: 1rem; }
+.source-intro { margin-top: -.45rem; color: #59625c; }
+.example-list { display: grid; gap: .8rem; }
+.example-card { border: 1px solid var(--line); background: #fff; padding: 1rem; }
+.example-card h3 { font-family: Georgia, 'Times New Roman', serif; margin: .1rem 0 .35rem; font-size: 1.15rem; }
+.example-card p { margin: 0 0 .8rem; }
+.example-card a { color: var(--pine); font-weight: 700; }
+.example-label { color: #59625c; font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .shot-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; }
 .shot-nav a { color: var(--pine); font-weight: 700; }
 footer { width: min(70rem, calc(100% - 2rem)); margin: 0 auto 3rem; border-top: 1px solid var(--line); padding-top: 1rem; font-size: .85rem; }
 @media (max-width: 32rem) { .shot-grid { grid-template-columns: 1fr; } .shot-nav { flex-direction: column; } }
-
