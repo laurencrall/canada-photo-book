@@ -12,6 +12,7 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: Aria
 .shot-card h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 1.3rem; margin: .7rem 0 .2rem; }
 .shot-card p { margin: 0; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
 .back { color: white; }
+.header-link { color: white; font-weight: 700; }
 .shot-main { width: min(52rem, calc(100% - 2rem)); margin: 2rem auto 5rem; }
 .sketch { margin: 0 0 2rem; background: var(--card); padding: .75rem; border: 1px solid var(--line); }
 .sketch img { width: 100%; display: block; }
@@ -29,4 +30,11 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: Aria
 .shot-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; }
 .shot-nav a { color: var(--pine); font-weight: 700; }
 footer { width: min(70rem, calc(100% - 2rem)); margin: 0 auto 3rem; border-top: 1px solid var(--line); padding-top: 1rem; font-size: .85rem; }
+.fix-main { width: min(52rem, calc(100% - 2rem)); margin: 2rem auto 5rem; display: grid; gap: 1rem; }
+.fix-card { background: var(--card); border: 1px solid var(--line); padding: 1.25rem; }
+.fix-card h2 { font-family: Georgia, 'Times New Roman', serif; margin: 0; font-size: 1.45rem; }
+.fix-card .fix-method { color: #59625c; font-weight: 700; margin: .25rem 0 .7rem; }
+.fix-card ol { padding-left: 1.35rem; margin: 0 0 .9rem; }
+.fix-card li + li { margin-top: .55rem; }
+.fix-card a { color: var(--pine); font-weight: 700; }
 @media (max-width: 32rem) { .shot-grid { grid-template-columns: 1fr; } .shot-nav { flex-direction: column; } }
